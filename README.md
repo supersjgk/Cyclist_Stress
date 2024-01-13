@@ -3,14 +3,15 @@
 ## Code Files
 * preprocessing.py - Data Preprocessing, Denoising, Downsampling
 * neural_networks.py - Neural networks involved in the project
-* contrastive_loss.py - Implementation of Cross Domain Contrastive Loss in PyTorch
+* contrastive_loss.py - Implementation of Cross Domain Contrastive Loss (CDCL) in PyTorch
 * uda_contrastive_loss_pipeline.py - Training the encoders to achieve domain invariance using Contrastive loss
 * warped_gaussian_process.py - Implementation of Multi-task Warped Gaussian Process using GPyTorch
 * wgp_pipeline.py - Training and Testing MTWGP
 * classification_pipeline.py - Training and Testing the final classifier
+* CDCL.md - CDCL formula
 
 ## Setup
-Main Packages used: [PyTorch](https://pytorch.org/) [GPyTorch](https://docs.gpytorch.ai/en/stable/index.html)
+Main Libraries used: [PyTorch](https://github.com/pytorch/pytorch) [GPyTorch](https://github.com/cornellius-gp/gpytorch) [SciPy](https://github.com/scipy/scipy) [noisereduce](https://github.com/timsainb/noisereduce/tree/master)
 ```
 pip install -r requirements.txt
 ```
