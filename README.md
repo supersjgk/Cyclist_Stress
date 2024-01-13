@@ -11,7 +11,7 @@
 * CDCL.md - CDCL formula
 
 ## Setup
-Main Libraries used: [PyTorch](https://github.com/pytorch/pytorch) [GPyTorch](https://github.com/cornellius-gp/gpytorch) [SciPy](https://github.com/scipy/scipy) [noisereduce](https://github.com/timsainb/noisereduce/tree/master)
+Main Libraries used: [PyTorch](https://github.com/pytorch/pytorch) | [GPyTorch](https://github.com/cornellius-gp/gpytorch) | [SciPy](https://github.com/scipy/scipy) | [noisereduce](https://github.com/timsainb/noisereduce/tree/master)
 ```
 pip install -r requirements.txt
 ```
