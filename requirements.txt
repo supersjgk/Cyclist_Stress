@@ -1,0 +1,8 @@
+numpy
+pandas
+torch
+gpytorch
+scikit-learn
+scipy
+noisereduce
+wave
